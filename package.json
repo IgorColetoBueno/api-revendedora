@@ -1,0 +1,35 @@
+{
+  "name": "api-revendedora",
+  "version": "1.0.0",
+  "description": "API oficial do app de revendedoras",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorColetoBueno/api-revendedora.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Igor Bueno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgorColetoBueno/api-revendedora/issues"
+  },
+  "homepage": "https://github.com/IgorColetoBueno/api-revendedora#readme",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.10",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.2.9"
+  }
+}
