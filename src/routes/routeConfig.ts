@@ -9,6 +9,6 @@ export default class RouteConfig{
     }
 
     public static defineRoutes(app: Application):void{
-        app.use("/usuarios",new UserRoutes().router)        
+        app.use("/usuarios",new UserRoutes().router) 
     }
 }
