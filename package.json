@@ -2,7 +2,7 @@
   "name": "api-revendedora",
   "version": "1.0.0",
   "description": "API oficial do app de revendedoras",
-  "main": "server.ts",
+  "main": "server.js",
   "scripts": {
     "build": "tsc",
     "dev": "ts-node ./src/server.ts",
