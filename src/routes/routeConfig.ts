@@ -1,6 +1,7 @@
 import {Application} from 'express'
 import UserRoutes from './user';
 import { app } from '../app';
+import HomeRoutes from './home';
 
 export default class RouteConfig{
 
@@ -10,5 +11,6 @@ export default class RouteConfig{
 
     public static defineRoutes(app: Application):void{
         app.use("/usuarios",new UserRoutes().router) 
+        app.use("/",new HomeRoutes().router) 
     }
 }
