@@ -1,0 +1,1 @@
+export const MONGOOSE_VALIDATION_ERROR = "ValidationError"

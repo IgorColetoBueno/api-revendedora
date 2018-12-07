@@ -30,10 +30,12 @@
     "nodemon": "^1.18.4"
   },
   "devDependencies": {
-    "@types/mongoose": "^5.2.9"
+    "@types/mongoose": "^5.2.9",
+    "@types/morgan": "^1.7.35",
+    "morgan": "^1.9.1"
   },
   "engines": {
-    "node":"8.11.2",
-    "npm":"6.2.0"
+    "node": "8.11.2",
+    "npm": "6.2.0"
   }
 }

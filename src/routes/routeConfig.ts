@@ -6,7 +6,7 @@ import HomeRoutes from './home';
 export default class RouteConfig{
 
     private constructor(){
-
+        
     }
 
     public static defineRoutes(app: Application):void{

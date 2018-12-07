@@ -9,6 +9,21 @@ export interface IUser {
   dataUltimaAlteracao: Date;
 }
 
+export interface IUserRequest {
+  nome: string;
+  sobrenome: string;
+  email: string;
+  senha: string;
+}
+
+export interface IUserResponse {
+  nome: string;
+  sobrenome: string;
+  email: string;
+  dataCriacao: Date;
+  dataUltimaAlteracao: Date;
+}
+
 export interface IUserModel extends Document, IUser {
   hashPassword(senha: string): string;
   validatePassword(senha: string, cb: any): void;

@@ -9,7 +9,7 @@ export default class HomeRoutes {
 
   defineRoutes(): any {
     this.router = Router();
-    this.router.get("/", (req:Request, res:Response) => {
+    this.router.get("/user", (req:Request, res:Response) => {
         res.status(200).send(`<h1>Bem vindo(a) a API de Revendedoras!</h1>`);
     })
   }
